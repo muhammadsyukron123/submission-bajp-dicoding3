@@ -1,0 +1,111 @@
+***Unit Testing***
+
+MovieViewModelTest :
+- Memuat Movies :
+  * Memanipulasi data ketika pemanggilan data Movie di kelas repository.
+  * Memastikan method di kelas repository terpanggil
+  * Memastikan data movies tidak null
+  * Memastikan jumlah data movies sesuai dengan yang diharapkan
+
+TvShowViewModelTest
+- Memuat Tv Show :
+  * Memanipulasi data ketika pemanggilan data TvShow di kelas repository.
+  * Memastikan method di kelas repository terpanggil
+  * Memastikan data tvShows tidak null
+  * Memastikan jumlah data tvShows sesuai dengan yang diharapkan
+
+FavoriteViewModelTest 
+- Memuat Favorite Movies :
+  * Memanipulasi data ketika pemanggilan data Movie di kelas repository.
+  * Memastikan method di kelas repository terpanggil
+  * Memastikan data movies tidak null
+  * Memastikan jumlah data movies sesuai dengan yang diharapkan
+
+- Memuat Favorite Tv Show :
+  * Memanipulasi data ketika pemanggilan data TvShow di kelas repository.
+  * Memastikan method di kelas repository terpanggil
+  * Memastikan data tvShows tidak null
+  * Memastikan jumlah data tvShows sesuai dengan yang diharapkan
+
+DetailMovieViewModelTest 
+- Memuat Movies :
+  * Memanipulasi data ketika pemanggilan data Movie di kelas repository.
+  * Memastikan method di kelas repository terpanggil
+  * Memastikan data movies tidak null
+  * Memastikan jumlah data Movie sesuai dengan yang diharapkan 
+
+- Memuat Tv Show :
+  * Memanipulasi data ketika pemanggilan data TvShow di kelas repository.
+  * Memastikan method di kelas repository terpanggil
+  * Memastikan data TvShow tidak null
+  * Memastikan jumlah data TvShow sesuai dengan yang diharapkan
+
+- Memuat Modules:
+  * Memanipulasi data ketika pemanggilan module di kelas repository.
+  * Memastikan method di kelas repository terpanggil
+  * Memastikan data module tidak null
+  * Memastikan jumlah data module sesuai dengan yang diharapkan
+
+DataRepositoryTest :
+- Memuat Modules :
+  * Memanipulasi data ketika pemanggilan module di kelas repository.
+  * Memastikan method di kelas repository terpanggil
+  * Memastikan data module tidak null
+  * Memastikan jumlah data module sesuai dengan yang diharapkan
+- Memuat Module yang dipilih :
+  * Memanipulasi data ketika pemanggilan content di kelas repository.
+  * Memastikan method di kelas repository terpanggil
+  * Memastikan data content tidak null
+  * Memastikan jumlah data content sesuai dengan yang diharapkan
+
+
+***Instrumentation Testing***
+- Menampilkan data daftar movie
+  * Memastikan rv_movie_fragment dalam keadaan tampil
+  * Gulir rv_movie_fragment ke posisi data terakhir
+
+- Menampilkan data detail movie
+  * Memberikan tindakan klik pada data pertama di rv_movie_fragment
+  * Memastikan Textview untuk title tampil sesuai dengan yang diharapkan
+  * Memastikan Textview untuk year tampil sesuai dengan yang diharapkan   		
+  * Memastikan Textview untuk score tampil sesuai dengan yang diharapkan
+  * Memastikan Textview untuk overview tampil sesuai dengan yang diharapkan
+
+- Menampilkan data daftar favorite movie
+  * Memastikan rv_movie_fragment dalam keadaan tampil
+  * Gulir rv_movie_fragment ke posisi data terakhir
+
+- Menampilkan data detail favorite movie
+  * Memberikan tindakan klik pada data pertama di rv_movie_fragment
+  * Memberikan tindakan klik pada button fab_favorite_movie
+  * Memberikan tindakan klik pada button menu favorite di main activity
+  * Memberikan tindakan klik pada data pertama favorite tv show di rv_movie_fragment
+  * Memastikan Textview untuk title tampil sesuai dengan yang diharapkan
+  * Memastikan Textview untuk year tampil sesuai dengan yang diharapkan   		
+  * Memastikan Textview untuk score tampil sesuai dengan yang diharapkan
+  * Memastikan Textview untuk overview tampil sesuai dengan yang diharapkan
+
+- Menampilkan data daftar tv show
+  * Memastikan rv_tv_shows_fragment dalam keadaan tampil
+  * Gulir rv_tv_shows_fragment ke posisi data terakhir
+
+- Menampilkan data detail tv show
+  * Memberikan tindakan klik pada data pertama di rv_tv_shows_fragment
+  * Memastikan Textview untuk title tampil sesuai dengan yang diharapkan
+  * Memastikan Textview untuk year tampil sesuai dengan yang diharapkan   		
+  * Memastikan Textview untuk genre tampil sesuai dengan yang diharapkan
+  * Memastikan Textview untuk overview tampil sesuai dengan yang diharapkan
+
+- Menampilkan data daftar favorite tv show
+  * Memastikan rv_tvshow_fragment dalam keadaan tampil
+  * Gulir rv_show_fragment ke posisi data terakhir
+
+- Menampilkan data detail favorite tv show
+  * Memberikan tindakan klik pada data pertama di rv_tv_show_fragment
+  * Memberikan tindakan klik pada button fab_favorite_tvshow
+  * Memberikan tindakan klik pada button menu favorite di main activity
+  * Memberikan tindakan klik pada data pertama favorite tv show di rv_tv_show_fragment
+  * Memastikan Textview untuk title tampil sesuai dengan yang diharapkan
+  * Memastikan Textview untuk year tampil sesuai dengan yang diharapkan   		
+  * Memastikan Textview untuk score tampil sesuai dengan yang diharapkan
+  * Memastikan Textview untuk overview tampil sesuai dengan yang diharapkan
